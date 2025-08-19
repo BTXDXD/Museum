@@ -1,0 +1,11 @@
+Arg Integer x
+Arg Integer y
+Arg String text
+
+Console.log.print < !text
+Console.log.print < !x & '+' & !y & "=" & !x+y
+
+Process.sleep < y*200
+Console.execute "cls"
+
+Return < Void

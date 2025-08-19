@@ -1,0 +1,17 @@
+Ruda.Debug true end // Вывод разбиения текста на токены и тп end
+Ruda.Package.UPID "btxds.Rudadev" end // Unique Package ID end
+
+Integer Number = 1n          end // Пример комментария. Обязательно должен заканчиваться на end
+String Text = "Text var"     end
+Boolean Logic = false        end
+Double Float = 2.5f          end
+Static.Integer Static.N = 5n end
+
+// Static-переменные сохраняются в память диска после завершения выполнения скрипта end
+// Обычные же переменные просто удаляются end
+
+Console.Log.Println !Number     end
+Console.Log.Println !Text       end
+Console.Log.Println !Logic      end
+Console.Log.Println !Float      end
+Console.Error.Println !Static.N end // Warn, Error, Log end

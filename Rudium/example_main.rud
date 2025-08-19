@@ -1,0 +1,7 @@
+Integer Final x = 5
+Integer Final y = 5
+String tx = "Hello, world!&n"
+
+Function example_plus < x y tx
+
+Return < Integer 0

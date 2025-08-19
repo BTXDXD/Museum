@@ -1,0 +1,8 @@
+Double First = 75.4f end
+Integer Second = 50n end
+Console.Log.Print !First .. !Second end
+Console.Warn.Print !First .. !Second end
+Console.Error.Print !First .. !Second end
+Console.Log.Println !First .. !Second end
+Console.Warn.Println !First .. !Second end
+Console.Error.Println !First .. !Second end

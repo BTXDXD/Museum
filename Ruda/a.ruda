@@ -1,0 +1,3 @@
+Ruda.Debug true end
+Boolean tt = false end
+if tt end
